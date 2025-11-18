@@ -301,7 +301,10 @@ img {
     border-top: none;
 }
 
-
+.container-logo {
+     display: flex;
+    align-items: baseline;
+}
 .footer-page {
     background-color: #2e2f42;
     padding: 100px 0;
