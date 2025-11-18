@@ -301,13 +301,14 @@ img {
     border-top: none;
 }
 
-.container-logo {
-     display: flex;
-    align-items: baseline;
-}
+
 .footer-page {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+.footer-page .container {
+    display: flex;
+    align-items: baseline;
 }
 .footer-link {
     font-family: "Raleway", sans-serif;
@@ -317,8 +318,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 .accent-footer {
     color: #f4f4fd;
